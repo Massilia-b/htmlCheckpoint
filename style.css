@@ -22,6 +22,10 @@
   align-items: center;
   background-color: black;
 }
+.info {
+  display: flex;
+  justify-content: space-around;
+}
 .options {
   height: 40px;
   margin-right: 60px;
@@ -60,7 +64,7 @@
 }
 .info {
   display: flex;
-  justify-content: flex-center;
+  justify-content: fspace-between;
   gap: 100px;
 }
 .info .logo {
